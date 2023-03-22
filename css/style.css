@@ -92,22 +92,23 @@
     background-repeat: no-repeat;
     background-position: center;
     border: 5px solid;
-    position: relative;
+    /* position: relative; */
 }
 
 .music .p2 {
     /* height: 40px; */
-    /* background-color: chocolate; */
+    background-color: chocolate;
     font-size: 35px;
     color: #fffd00;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 3px;
-    position: absolute;
+    /* position: absolute;
     top: 40px;
-    left: 65px;
+    left: 65px; */
 }
 
 .music .p1 {
+    background-color: aqua;
     text-align: center;
     font-size: 190px;
     color: #ffffff;
