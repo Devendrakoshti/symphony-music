@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 720px;
+    width: 100%;
+    border: 2px solid;
+    background: url(../images/banner.jpg);
+    background-size: 111% 100%;
+}
+
+.main .navbar {
+    /* height: 92px; */
+    width: 85%;
+    background-color: lightgreen;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    position: relative;
+}
+
+.main .navbar h1 {
+    /* height: 80px; */
+    width: 43.5%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 40px;
+    /* border: 2px solid; */
+    background-color: blue;
+    font-weight: 600;
+}
+
+.main .navbar h1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main .navbar h1 span {
+    letter-spacing: 15px;
+    color: #00ffbe;
+}
+
+.main .navbar h1 img {
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    transform: rotate(38deg);
+}
+
+.main .navbar ul {
+    /* height: 92px; */
+    width: 56.5%;
+    line-height: 80px;
+}
+
+.main .navbar ul li {
+    display: inline;
+}
+
+.main .navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue";
+    font-weight: bold;
+    margin-left: 15px;
+    padding: 2px 20px;
+    border: transparent;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transform: 1s;
+    text-shadow: 0px 2px 6px black;
+}
+
+.red {
+    color: #e50004;
+    border: #e50004 2px solid;
+}
+
+.main .navbar ul li a:hover {
+    border: 2px solid #e50004;
+    color: #e50004;
+}
+
+.main .music {
+    height: 320px;
+    width: 700px;
+    margin: 130px auto;
+    background: url(../images/2.png);
+    background-size: 60% 105%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid;
+    position: relative;
+}
+
+.music .p2 {
+    /* height: 40px; */
+    /* background-color: chocolate; */
+    font-size: 35px;
+    color: #fffd00;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 40px;
+    left: 65px;
+}
+
+.music .p1 {
+    text-align: center;
+    font-size: 190px;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue";
+    font-weight: 700;
+    text-shadow: 0PX 10PX 10PX #e50004;
+}
+
+.rock {
+    height: 470px;
+    background-color: #fffd00;
+    display: flex;
+}
+
+.rock .dj {
+    height: 470px;
+    width: 310px;
+    background-color: brown;
+    margin-right: 20px;
+}
+
+.rock .q {
+    width: 340px;
+    margin-right: 12px;
+}
+
+.rock .dj .peter {
+    height: 320px;
+    border: 2px solid;
+    background: url(../images/rock.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rock .dj .peter .color {
+    height: 280px;
+    width: 80%;
+    border: 2px solid aqua;
+    font-family: 'Sofia', cursive;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 30px;
+}
+
+.rock .dj .tex {
+    height: 150px;
+    border: 2px double;
+}

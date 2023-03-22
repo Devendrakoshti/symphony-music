@@ -1,0 +1,32 @@
+@media (max-width:500px) {
+    .main .navbar h1 {
+        font-size: 30px;
+        /* background: yellow; */
+    }
+    .main .navbar h1 img {
+        top: 0;
+        left: 145px;
+    }
+    .main .navbar ul li {
+        /* display: block;
+        background-color: aquamarine;
+        width: 500px;
+        text-align: center; */
+    }
+    .main {
+        background-size: cover;
+        height: 480px;
+    }
+    .main .music {
+        width: 80%;
+        /* height: 250px; */
+        margin: 0px auto;
+    }
+    .main .music .p1 {
+        font-size: 120px;
+    }
+    .main .music .p2 {
+        top: 15px;
+        left: 10px;
+    }
+}
