@@ -37,20 +37,20 @@
     .rock .dj .ins .line {
         left: 95px;
     }
-    .black .chin .wel {
+    .chin .wel {
         width: 80%;
         margin: 50px 0 0 90px;
     }
-    .black .chin .sym {
+    .chin .sym {
         width: 100%;
         margin: 30px 0px;
         padding: 0px;
     }
-    .black .chin .wel img {
+    .chin .wel img {
         height: 350px;
         width: 70%;
     }
-    .black .chin .sym h1 {
+    .chin .sym h1 {
         font-size: 25px;
     }
     .black .exa .lov .mon {
@@ -61,19 +61,17 @@
         margin: 0px;
         padding: 0px;
     }
-    .black .sub .new {
-        width: 100%;
-        text-align: left;
-        padding-left: 20px;
+    .sub {
+        display: block;
+        padding-left: 10px;
     }
-    .black .sub .ema {
-        width: 100%;
-        padding-left: 20px;
+    .sub .yul {
+        display: flex;
     }
-    .black .sub .ema .him {
-        width: 330px;
+    .sub .him {
+        width: 300px;
     }
-    .black .sub .ema .send {
+    .sub .send {
         width: 115px;
     }
     .our .sel {
@@ -88,10 +86,22 @@
     .stat .slack {
         height: 200px;
     }
-    .stat .slack .gfd .mal .gra {
-        height: 50px;
-        width: 90%;
-        top: 0;
-        left: 0;
+    /* .stat .slack .gfd .mal .gra {
+        font-size: 10PX;
+        top: 10px;
+        left: -100%;
+    }
+    .stat .slack .gfd .mal .X {
+        font-size: 10PX;
+        top: 20px;
+        left: -100%;
+    }
+    .stat .slack .gfd .mal .y {
+        font-size: 10PX;
+        top: 90px;
+        left: -100%;
+    } */
+    .foot .day .twi {
+        width: 100%;
     }
 }
